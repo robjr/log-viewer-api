@@ -1,0 +1,26 @@
+{
+    "name": "robjr/log-viewer-api",
+    "description": "Log Viewer Api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roberto Júnior",
+            "email": "me@robertojunior.net"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "silex/silex": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1",
+        "squizlabs/php_codesniffer": "^2.0",
+        "phpmd/phpmd": "^2.0"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": {"Tests\\": "tests/"}
+    }
+}
